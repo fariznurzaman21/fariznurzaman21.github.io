@@ -1,0 +1,56 @@
+
+    
+    {
+        "barang":[
+                {
+                    "id"    : 1,
+                    "img"   : "gambar1",
+                    "nama"  : "HDD-HARDISK EXTERNAL 120GB SATA PS2-PS3-LAPTOP",
+                    "harga" : "Rp175.000,-"
+                },
+                {
+                    "id"    : 2,
+                    "img"   : "gambar2",
+                    "nama"  : "Flashdisk HP 32gb - Flas Disk HP 32GB - USB FLASHDRIVE ",
+                    "harga" : "Rp30.000,-"
+                },
+                {
+                    "id"    : 3,
+                    "img"   : "gambar3",
+                    "nama"  : "I5 PC GAMING DAN EDITING DESIGN MURAH ",
+                    "harga" : "Rp3.850.000,-"
+                },
+                {
+                    "id"    : 4,
+                    "img"   : "gambar4",
+                    "nama"  : "Cpu pc.Core i5 Req Terlaris",
+                    "harga" : "Rp1.875.000,-"
+                },
+                {
+                    "id"    : 5,
+                    "img"   : "gambar5",
+                    "nama"  : "Gorilla Pod Holder Universal Tripod",
+                    "harga" : "Rp24.000,-"
+                },
+                {
+                    "id"    : 6,
+                    "img"   : "gambar5",
+                    "nama"  : "Gorilla Pod Holder Universal Tripod",
+                    "harga" : "Rp24.000,-"
+                },
+                {
+                    "id"    : 7,
+                    "img"   : "gambar5",
+                    "nama"  : "Gorilla Pod Holder Universal Tripod",
+                    "harga" : "Rp24.000,-"
+                },
+                {
+                    "id"    : 8,
+                    "img"   : "gambar5",
+                    "nama"  : "Gorilla Pod Holder Universal Tripod",
+                    "harga" : "Rp24.000,-"
+                }
+                
+                
+            ]
+    }
