@@ -1,0 +1,33 @@
+.container {
+    width: 1000px;
+    height: 140px;
+    padding: 20px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+div {
+    
+}
+
+.keterangan {
+    width: 150px;
+    float: left;
+    line-height: 25px;
+}
+
+.titik {
+    width: 10px;
+    float: left;
+    line-height: 25px;
+}
+
+.input {
+    width: 500px;
+    float: left;
+    line-height: 30px;
+}
+
+#terbilang{
+    border: 1px solid black;
+}
